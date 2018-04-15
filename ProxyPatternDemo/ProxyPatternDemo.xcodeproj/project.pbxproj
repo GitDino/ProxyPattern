@@ -17,6 +17,16 @@
 		0154AFBC208334CC0077948E /* DOAbstractProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFBB208334CC0077948E /* DOAbstractProxy.m */; };
 		0154AFC0208335420077948E /* DOCustomProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFBF208335420077948E /* DOCustomProxy.m */; };
 		0154AFC6208336B70077948E /* DORecoverMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFC5208336B70077948E /* DORecoverMessage.m */; };
+		0154AFCF208339BE0077948E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFCE208339BE0077948E /* AppDelegate.m */; };
+		0154AFD7208339BF0077948E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0154AFD6208339BF0077948E /* Assets.xcassets */; };
+		0154AFDA208339BF0077948E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0154AFD8208339BF0077948E /* LaunchScreen.storyboard */; };
+		0154AFDD208339BF0077948E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFDC208339BF0077948E /* main.m */; };
+		0154AFE7208339BF0077948E /* ProxyPatternDemo_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFE6208339BF0077948E /* ProxyPatternDemo_1Tests.m */; };
+		0154AFF2208339BF0077948E /* ProxyPatternDemo_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154AFF1208339BF0077948E /* ProxyPatternDemo_1UITests.m */; };
+		0154B00420833A1B0077948E /* DORootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154B00320833A1B0077948E /* DORootVC.m */; };
+		0154B00820833AE50077948E /* DOAbstractObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154B00720833AE50077948E /* DOAbstractObject.m */; };
+		0154B00B20833AF60077948E /* DOCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154B00A20833AF60077948E /* DOCustomObject.m */; };
+		0154B00E20833B080077948E /* DORecoverMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0154B00D20833B080077948E /* DORecoverMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0154AF7C208328510077948E;
 			remoteInfo = ProxyPatternDemo;
+		};
+		0154AFE3208339BF0077948E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0154AF75208328510077948E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0154AFCA208339BE0077948E;
+			remoteInfo = "ProxyPatternDemo-1";
+		};
+		0154AFEE208339BF0077948E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0154AF75208328510077948E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0154AFCA208339BE0077948E;
+			remoteInfo = "ProxyPatternDemo-1";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,6 +83,28 @@
 		0154AFBF208335420077948E /* DOCustomProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOCustomProxy.m; sourceTree = "<group>"; };
 		0154AFC4208336B70077948E /* DORecoverMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DORecoverMessage.h; sourceTree = "<group>"; };
 		0154AFC5208336B70077948E /* DORecoverMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORecoverMessage.m; sourceTree = "<group>"; };
+		0154AFCB208339BE0077948E /* ProxyPatternDemo-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProxyPatternDemo-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154AFCD208339BE0077948E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0154AFCE208339BE0077948E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0154AFD6208339BF0077948E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0154AFD9208339BF0077948E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0154AFDB208339BF0077948E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154AFDC208339BF0077948E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0154AFE2208339BF0077948E /* ProxyPatternDemo-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProxyPatternDemo-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154AFE6208339BF0077948E /* ProxyPatternDemo_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPatternDemo_1Tests.m; sourceTree = "<group>"; };
+		0154AFE8208339BF0077948E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154AFED208339BF0077948E /* ProxyPatternDemo-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProxyPatternDemo-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0154AFF1208339BF0077948E /* ProxyPatternDemo_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPatternDemo_1UITests.m; sourceTree = "<group>"; };
+		0154AFF3208339BF0077948E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0154B00220833A1B0077948E /* DORootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DORootVC.h; sourceTree = "<group>"; };
+		0154B00320833A1B0077948E /* DORootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORootVC.m; sourceTree = "<group>"; };
+		0154B00620833AE50077948E /* DOAbstractObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOAbstractObject.h; sourceTree = "<group>"; };
+		0154B00720833AE50077948E /* DOAbstractObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOAbstractObject.m; sourceTree = "<group>"; };
+		0154B00920833AF60077948E /* DOCustomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOCustomObject.h; sourceTree = "<group>"; };
+		0154B00A20833AF60077948E /* DOCustomObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOCustomObject.m; sourceTree = "<group>"; };
+		0154B00C20833B080077948E /* DORecoverMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DORecoverMessage.h; sourceTree = "<group>"; };
+		0154B00D20833B080077948E /* DORecoverMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DORecoverMessage.m; sourceTree = "<group>"; };
+		0154B00F20833E520077948E /* DOAnotherProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOAnotherProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +129,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0154AFC8208339BE0077948E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFDF208339BF0077948E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFEA208339BF0077948E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +159,9 @@
 				0154AF7F208328510077948E /* ProxyPatternDemo */,
 				0154AF98208328520077948E /* ProxyPatternDemoTests */,
 				0154AFA3208328530077948E /* ProxyPatternDemoUITests */,
+				0154AFCC208339BE0077948E /* ProxyPatternDemo-1 */,
+				0154AFE5208339BF0077948E /* ProxyPatternDemo-1Tests */,
+				0154AFF0208339BF0077948E /* ProxyPatternDemo-1UITests */,
 				0154AF7E208328510077948E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +172,9 @@
 				0154AF7D208328510077948E /* ProxyPatternDemo.app */,
 				0154AF95208328520077948E /* ProxyPatternDemoTests.xctest */,
 				0154AFA0208328530077948E /* ProxyPatternDemoUITests.xctest */,
+				0154AFCB208339BE0077948E /* ProxyPatternDemo-1.app */,
+				0154AFE2208339BF0077948E /* ProxyPatternDemo-1Tests.xctest */,
+				0154AFED208339BF0077948E /* ProxyPatternDemo-1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,6 +259,86 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		0154AFCC208339BE0077948E /* ProxyPatternDemo-1 */ = {
+			isa = PBXGroup;
+			children = (
+				0154B001208339E90077948E /* Protocol */,
+				0154B000208339E40077948E /* Model */,
+				0154AFFF208339DE0077948E /* Controller */,
+				0154AFFE208339D70077948E /* Bases */,
+				0154AFFD208339C80077948E /* Resources */,
+			);
+			path = "ProxyPatternDemo-1";
+			sourceTree = "<group>";
+		};
+		0154AFE5208339BF0077948E /* ProxyPatternDemo-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0154AFE6208339BF0077948E /* ProxyPatternDemo_1Tests.m */,
+				0154AFE8208339BF0077948E /* Info.plist */,
+			);
+			path = "ProxyPatternDemo-1Tests";
+			sourceTree = "<group>";
+		};
+		0154AFF0208339BF0077948E /* ProxyPatternDemo-1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0154AFF1208339BF0077948E /* ProxyPatternDemo_1UITests.m */,
+				0154AFF3208339BF0077948E /* Info.plist */,
+			);
+			path = "ProxyPatternDemo-1UITests";
+			sourceTree = "<group>";
+		};
+		0154AFFD208339C80077948E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0154AFD6208339BF0077948E /* Assets.xcassets */,
+				0154AFD8208339BF0077948E /* LaunchScreen.storyboard */,
+				0154AFDB208339BF0077948E /* Info.plist */,
+				0154AFDC208339BF0077948E /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0154AFFE208339D70077948E /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				0154AFCD208339BE0077948E /* AppDelegate.h */,
+				0154AFCE208339BE0077948E /* AppDelegate.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		0154AFFF208339DE0077948E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0154B00220833A1B0077948E /* DORootVC.h */,
+				0154B00320833A1B0077948E /* DORootVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0154B000208339E40077948E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0154B00C20833B080077948E /* DORecoverMessage.h */,
+				0154B00D20833B080077948E /* DORecoverMessage.m */,
+				0154B00620833AE50077948E /* DOAbstractObject.h */,
+				0154B00720833AE50077948E /* DOAbstractObject.m */,
+				0154B00920833AF60077948E /* DOCustomObject.h */,
+				0154B00A20833AF60077948E /* DOCustomObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0154B001208339E90077948E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0154B00F20833E520077948E /* DOAnotherProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +395,59 @@
 			productReference = 0154AFA0208328530077948E /* ProxyPatternDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0154AFCA208339BE0077948E /* ProxyPatternDemo-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154AFF4208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1" */;
+			buildPhases = (
+				0154AFC7208339BE0077948E /* Sources */,
+				0154AFC8208339BE0077948E /* Frameworks */,
+				0154AFC9208339BE0077948E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProxyPatternDemo-1";
+			productName = "ProxyPatternDemo-1";
+			productReference = 0154AFCB208339BE0077948E /* ProxyPatternDemo-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0154AFE1208339BF0077948E /* ProxyPatternDemo-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154AFF7208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1Tests" */;
+			buildPhases = (
+				0154AFDE208339BF0077948E /* Sources */,
+				0154AFDF208339BF0077948E /* Frameworks */,
+				0154AFE0208339BF0077948E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0154AFE4208339BF0077948E /* PBXTargetDependency */,
+			);
+			name = "ProxyPatternDemo-1Tests";
+			productName = "ProxyPatternDemo-1Tests";
+			productReference = 0154AFE2208339BF0077948E /* ProxyPatternDemo-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0154AFEC208339BF0077948E /* ProxyPatternDemo-1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0154AFFA208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1UITests" */;
+			buildPhases = (
+				0154AFE9208339BF0077948E /* Sources */,
+				0154AFEA208339BF0077948E /* Frameworks */,
+				0154AFEB208339BF0077948E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0154AFEF208339BF0077948E /* PBXTargetDependency */,
+			);
+			name = "ProxyPatternDemo-1UITests";
+			productName = "ProxyPatternDemo-1UITests";
+			productReference = 0154AFED208339BF0077948E /* ProxyPatternDemo-1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,6 +468,17 @@
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = 0154AF7C208328510077948E;
 					};
+					0154AFCA208339BE0077948E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0154AFE1208339BF0077948E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0154AFCA208339BE0077948E;
+					};
+					0154AFEC208339BF0077948E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0154AFCA208339BE0077948E;
+					};
 				};
 			};
 			buildConfigurationList = 0154AF78208328510077948E /* Build configuration list for PBXProject "ProxyPatternDemo" */;
@@ -280,6 +497,9 @@
 				0154AF7C208328510077948E /* ProxyPatternDemo */,
 				0154AF94208328520077948E /* ProxyPatternDemoTests */,
 				0154AF9F208328530077948E /* ProxyPatternDemoUITests */,
+				0154AFCA208339BE0077948E /* ProxyPatternDemo-1 */,
+				0154AFE1208339BF0077948E /* ProxyPatternDemo-1Tests */,
+				0154AFEC208339BF0077948E /* ProxyPatternDemo-1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,6 +522,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0154AF9E208328530077948E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFC9208339BE0077948E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154AFDA208339BF0077948E /* LaunchScreen.storyboard in Resources */,
+				0154AFD7208339BF0077948E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFE0208339BF0077948E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFEB208339BF0077948E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,6 +583,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0154AFC7208339BE0077948E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154B00420833A1B0077948E /* DORootVC.m in Sources */,
+				0154B00E20833B080077948E /* DORecoverMessage.m in Sources */,
+				0154AFDD208339BF0077948E /* main.m in Sources */,
+				0154AFCF208339BE0077948E /* AppDelegate.m in Sources */,
+				0154B00B20833AF60077948E /* DOCustomObject.m in Sources */,
+				0154B00820833AE50077948E /* DOAbstractObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFDE208339BF0077948E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154AFE7208339BF0077948E /* ProxyPatternDemo_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0154AFE9208339BF0077948E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0154AFF2208339BF0077948E /* ProxyPatternDemo_1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -353,6 +625,16 @@
 			target = 0154AF7C208328510077948E /* ProxyPatternDemo */;
 			targetProxy = 0154AFA1208328530077948E /* PBXContainerItemProxy */;
 		};
+		0154AFE4208339BF0077948E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0154AFCA208339BE0077948E /* ProxyPatternDemo-1 */;
+			targetProxy = 0154AFE3208339BF0077948E /* PBXContainerItemProxy */;
+		};
+		0154AFEF208339BF0077948E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0154AFCA208339BE0077948E /* ProxyPatternDemo-1 */;
+			targetProxy = 0154AFEE208339BF0077948E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -360,6 +642,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				0154AF8C208328520077948E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0154AFD8208339BF0077948E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0154AFD9208339BF0077948E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -579,6 +869,108 @@
 			};
 			name = Release;
 		};
+		0154AFF5208339BF0077948E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ProxyPatternDemo-1/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0154AFF6208339BF0077948E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ProxyPatternDemo-1/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0154AFF8208339BF0077948E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ProxyPatternDemo-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyPatternDemo-1.app/ProxyPatternDemo-1";
+			};
+			name = Debug;
+		};
+		0154AFF9208339BF0077948E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ProxyPatternDemo-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyPatternDemo-1.app/ProxyPatternDemo-1";
+			};
+			name = Release;
+		};
+		0154AFFB208339BF0077948E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ProxyPatternDemo-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ProxyPatternDemo-1";
+			};
+			name = Debug;
+		};
+		0154AFFC208339BF0077948E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ProxyPatternDemo-1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dino.ProxyPatternDemo-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ProxyPatternDemo-1";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -614,6 +1006,33 @@
 			buildConfigurations = (
 				0154AFB0208328530077948E /* Debug */,
 				0154AFB1208328530077948E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0154AFF4208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154AFF5208339BF0077948E /* Debug */,
+				0154AFF6208339BF0077948E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0154AFF7208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154AFF8208339BF0077948E /* Debug */,
+				0154AFF9208339BF0077948E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0154AFFA208339BF0077948E /* Build configuration list for PBXNativeTarget "ProxyPatternDemo-1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0154AFFB208339BF0077948E /* Debug */,
+				0154AFFC208339BF0077948E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
