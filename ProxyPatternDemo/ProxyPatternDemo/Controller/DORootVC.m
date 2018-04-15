@@ -7,8 +7,9 @@
 //
 
 #import "DORootVC.h"
+#import "DOCustomProxy.h"
 
-@interface DORootVC ()
+@interface DORootVC ()<DOCustomProtocol>
 
 @end
 
@@ -19,6 +20,15 @@
     
     self.title = @"代理模式";
     self.view.backgroundColor = [UIColor redColor];
+    
+    DOCustomProxy *custom_proxy = [DOCustomProxy alloc];
+    custom_proxy.delegate = self;
+}
+
+#pragma mark - DOCustomProtocol协议方法
+- (void)doSomething
+{
+    NSLog(@"DORootVC：这就是真相！");
 }
 
 @end
